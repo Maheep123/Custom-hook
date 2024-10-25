@@ -1,0 +1,105 @@
+/* Center the entire application */
+body, html {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f3f1f0; /* Subtle cream background */
+  font-family: 'Georgia', serif;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  background-color: #bdc9e2; /* White form background */
+  padding: 9rem;
+  border-radius: 12px;
+  width: 400px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Soft shadow for depth */
+  text-align: left;
+  border: 1px solid #dedede;
+}
+
+label {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #000000; /* Soft gray for labels */
+}
+
+input, select {
+  padding: 8px;
+  font-size: 1rem;
+  border: 8px solid #bdc9e2;
+  border-radius: 120px;
+  transition: all 0.3s ease;
+  font-family: 'Georgia', serif;
+}
+
+
+
+button {
+  padding: 14px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #000000;
+  background-color: #6b99df; /* Elegant brown button color */
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: 'Georgia', serif;
+}
+
+button:hover {
+  background-color: #2556df; /* Darker shade of brown on hover */
+}
+
+button:active {
+  background-color: #323bb3; /* Even darker brown on click */
+}
+
+h3 {
+  font-size: 1.3rem;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 0.8rem;
+  font-family: 'Georgia', serif;
+}
+
+.console-output {
+  background-color: #cecece; /* Very light cream for classic console look */
+  color: #3e3e3e; /* Darker gray text */
+  padding: 15px;
+  border-radius: 6px;
+  border: 1px solid #ffffff;
+  margin-top: 1.5rem;
+  font-family: 'Courier New', monospace;
+  max-height: 200px;
+  overflow-y: auto;
+  font-size: 0.9rem;
+}
+
+/* Clear logs button style */
+.clear-button {
+  background-color: #000000; /* Classic muted red for clear button */
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 12px;
+  transition: background-color 0.3s ease;
+  font-family: 'Georgia', serif;
+}
+
+.clear-button:hover {
+  background-color: #a93b3b; /* Darker muted red on hover */
+}
+
+.clear-button:active {
+  background-color: #741313; /* Even darker red on click */
+}
